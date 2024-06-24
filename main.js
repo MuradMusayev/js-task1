@@ -183,6 +183,8 @@ console.log(sum + "\n" + minus + "\n" + mul + "\n" + devide);
 // Task-15
 // 12345 və 98765 ədədlərinin hasilindən alınan nəticənin 6-cı rəqəmini tapan proqram yazın
 
-let total = 12345 * 98765;
-let sixthNumber = total / 1000000;
-console.log();
+let number1 = 12345;
+let number2 = 98765;
+let total = number1 * number2;
+let numberAsString = total.toString();
+console.log(numberAsString[5])
